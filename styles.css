@@ -10,12 +10,12 @@ body {
   font-family: Verdana, Tahoma, sans-serif;
 }
 header {
-    width: 95%;
-    max-width: 788px;
-    display: flex;
-    justify-content: flex-end;
-    padding: 12px;
-    margin-top: 15px;
+  width: 95%;
+  max-width: 788px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 12px;
+  margin-top: 15px;
 }
 
 .share-button {
@@ -24,3 +24,24 @@ header {
   border-radius: 20px;
   background-color: rgb(240, 240, 240);
 }
+
+.container {
+  width: 91%;
+  max-width: 680px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tile {
+  width: 100%;
+  height: 56px;
+  background-color: rgb(37, 37, 37);
+  margin: 7px;
+  border-radius: 17px;
+  display: flex;
+  justify-content: space-between;
+}
+
+ 
