@@ -1,3 +1,4 @@
+// How to copy a text to your clipboard
 const shareButtons = document.querySelectorAll(".tile-share-button");
 
 async function copyText(e) {
@@ -15,5 +16,3 @@ async function copyText(e) {
 shareButtons.forEach((shareButtons) =>
   shareButtons.addEventListener("click", copyText)
 );
-
-
